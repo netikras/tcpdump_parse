@@ -13,6 +13,11 @@
 ## 
 ##   Feel free to pipe it to this script
 ## 
+##   Example output:
+##   1530648747.429813 - 1530648747.551633 0.121820 192.168.1.6:34712 <-> 192.30.253.112:443, 156, 
+##       ^^^                    ^^^          ^^^          ^^^                  ^^^            ^^^      ^^^
+##   Request sent @time  Response recvd    duration    client IP:port       server IP:port    size    data (none in this case because tcpdump cannot unwrap ssl)
+## 
 ## @author: Darius Juodokas
 ## @date  : 2018-07-03
 ## 
