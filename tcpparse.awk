@@ -77,11 +77,11 @@ BEGIN {
     len=nil;
     
 
-    src_ip=src;
-    src_port=src;
-
     sub(/:.*$/, "", src);
     sub(/:.*$/, "", dst);
+
+    src_ip=src;
+    src_port=src;
 
     dst_ip=dst;
     dst_port=dst;
